@@ -1,8 +1,6 @@
 package netflix;
 
-import com.codeborne.selenide.CollectionCondition;
 import com.codeborne.selenide.Configuration;
-import com.github.javafaker.Faker;
 import netflix.data.Locals;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -10,7 +8,6 @@ import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.MethodSource;
 import org.junit.jupiter.params.provider.ValueSource;
-import org.openqa.selenium.By;
 
 import java.util.List;
 import java.util.stream.Stream;
